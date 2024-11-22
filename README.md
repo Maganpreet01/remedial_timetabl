@@ -1,0 +1,5 @@
+- Upload a regular class timetable in PDF format.
+- Extract and process the timetable data to identify available time slots.
+- Assign teachers to free slots and generate a remedial timetable.
+- Download the generated remedial timetable in PDF format.
+- Simple and easy-to-use web interface.
