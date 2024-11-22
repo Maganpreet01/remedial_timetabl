@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remedial Timetable Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Regular Timetable PDF</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="timetable" accept="application/pdf" required>
+            <button type="submit">Generate Remedial Timetable</button>
+        </form>
+        <footer>
+            <p>Timetable Generator &copy; 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
+
